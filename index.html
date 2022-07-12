@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">Ken's Calculator</div>
+    <div class="calculator">
+
+        <div class="screen">
+            <div id="topNums"></div>
+            <div id="botNum">0</div>
+        </div>
+        <div class="topBtn" id="clearBtn">clear</div>
+        <div class="topBtn" id="deleteBtn">del</div>
+        <div class="btn" data-number>7</div>
+        <div class="btn" data-number>8</div>
+        <div class="btn" data-number>9</div>
+        <div class="btn" data-operator>÷</div>
+        <div class="btn" data-number>4</div>
+        <div class="btn" data-number>5</div>
+        <div class="btn" data-number>6</div>
+        <div class="btn" data-operator>×</div>
+        <div class="btn" data-number>1</div>
+        <div class="btn" data-number>2</div>
+        <div class="btn" data-number>3</div>
+        <div class="btn" data-operator>−</div>
+        <div class="btn" id="pointBtn">.</div>
+        <div class="btn" data-number>0</div>
+        <div class="btn" id="equalsBtn">=</div>
+        <div class="btn" data-operator>+</div>
+
+    </div>
+    <footer class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          <a href="https://github.com/kenneth-r-edwards" target="_blank">kenedwards</a>
+        </p>
+      </footer>
+</body>
+<script src="index.js"></script>
+</html>
